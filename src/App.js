@@ -49,7 +49,7 @@ const App = () => {
       <div className={classes.backimg}>
       <div className={classes.logoContainer}>
       <img src='./images/logo.png' />
-      <h1 className={classes.heading}>Hi, I am your virtual news reader assistant, <br /> How can i help you? </h1>
+      <h1 className={classes.heading}>Hi, I am your virtual assistant, <br /> How can i help you? </h1>
         {newsArticles.length ? (
           <div className={classes.infoContainer}>
             <div className={classes.card}><Typography variant="h5" component="h2">Try saying: <br /><br />Open article number (*number*)</Typography></div>

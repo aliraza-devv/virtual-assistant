@@ -1,4 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
+import { Translate } from '@material-ui/icons';
 import Image from './images/background.png'
 
 export default makeStyles((theme) => ({

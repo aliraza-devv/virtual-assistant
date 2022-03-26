@@ -31,7 +31,7 @@ const NewsCards = ({ articles, activeArticle }) => {
 
   if (!articles.length) {
     return (
-      <Grow in>
+      <Grow in timeout={1000}>
         <Grid
           className={classes.container}
           container

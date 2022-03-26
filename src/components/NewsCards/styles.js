@@ -12,7 +12,7 @@ export default makeStyles({
     borderRadius: '20px 50px',
     boxShadow: '33px 40px 60px -40px rgba(0, 0, 0, 1)',
     color: 'white',
-    marginTop: 80,
+    marginTop: 30,
   },
   infoCard: {
     display: 'flex',
