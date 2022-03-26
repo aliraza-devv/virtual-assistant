@@ -86,6 +86,12 @@ export default makeStyles((theme) => ({
   },
   heading: {
     color: 'white',
-    marginTop: 70,
+    marginTop: 100,
+    marginLeft: 20,
   },
+  logo: {
+    width: 50,
+    height: 50,
+    marginTop: 30,
+  }
 }));

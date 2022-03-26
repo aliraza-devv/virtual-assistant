@@ -4,6 +4,7 @@ import wordsToNumbers from 'words-to-numbers'
 import { Typography } from '@material-ui/core';
 import { Modal } from '@material-ui/core';
 import './images/background.png';
+import logo from './images/logo.png';
 
 import NewsCards from './components/NewsCards/NewsCards';
 import useStyles from './styles.js'
@@ -48,7 +49,7 @@ const App = () => {
     return (
       <div className={classes.backimg}>
       <div className={classes.logoContainer}>
-      <img src='./images/logo.png' />
+      <img className={classes.logo} src={logo} alt='Logo'/>
       <h1 className={classes.heading}>Hi, I am your virtual assistant, <br /> How can i help you? </h1>
         {newsArticles.length ? (
           <div className={classes.infoContainer}>
